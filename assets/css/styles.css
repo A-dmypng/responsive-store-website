@@ -115,6 +115,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    padding-inline: 2rem;
     background-color: transparent;
     z-index: var(--z-fixed);  
   }
@@ -125,7 +126,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 2rem;
   }
 
   .nav__logo{
@@ -469,6 +469,11 @@ width: 100%;
 }
 
 @media screen and (min-width: 768px){
+  .footer,
+  .section,
+  .header{
+    padding-inline: 3rem;
+  }
   .home__container{
     align-items: center;
     flex-direction: row;
@@ -495,6 +500,9 @@ width: 100%;
     width: 400px;
   }
 
+  .sale__Container{
+    justify-content: space-between;
+  }
   .footer__content{
     grid-template-columns: repeat(3, 1fr);
   }
