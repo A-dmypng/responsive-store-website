@@ -30,6 +30,7 @@
     --z-fixed: 100;
 }
 
+
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1150px) {
     :root {
@@ -55,12 +56,12 @@
   
   body,
   button {
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+
   }
   
   body {
-    font-size: 1.6rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
   }
@@ -501,7 +502,7 @@ width: 100%;
   }
 
   .sale__Container{
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .footer__content{
     grid-template-columns: repeat(3, 1fr);
@@ -555,7 +556,7 @@ width: 100%;
   }
 
   .featured__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .sale__container{
@@ -575,6 +576,6 @@ width: 100%;
 
   .footer__container{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 8rem     ;
+    column-gap: 8rem;
   }
 }
